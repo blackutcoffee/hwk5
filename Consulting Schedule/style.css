@@ -1,0 +1,74 @@
+/* Element Selectors */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 23px;
+  line-height: 1;
+  background-image: url('pearce_hall.jpg');
+}
+
+textarea{
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  border-left: 1px solid black;
+  padding: 11px;
+}
+
+/* Class Selectors */
+.description{
+  white-space: pre-wrap;
+}
+
+.future {
+  background-color: #F7EE1B;
+  color: white;
+}
+
+.hour {
+  background-color: #3DE084;
+  color: #000000;
+  border-top: 1.33px dashed #000000;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+  color: black;
+  border-radius: 0;
+  border-bottom: 10px solid black;
+}
+
+.past {
+  background-color: #164FF7;
+  color: white;
+}
+
+.present {
+  background-color: #F030DC;
+  color: white;
+}
+
+.row {
+  white-space: pre-wrap;
+  height: 75px;
+  border-top: 1px solid white;;
+}
+
+.saveBtn {
+  border-left: 1px solid black;
+  border-top-right-radius: 18px;
+  border-bottom-right-radius: 18px;
+  background-color: #CC5500;
+  color: white;
+}
+
+.saveBtn i:hover {
+  font-size: 17.5px;
+  transition: all .3s ease-in-out;
+}
+
+.time-block{
+  text-align: center;
+  border-radius: 16.6px;
+}
